@@ -1,0 +1,91 @@
+body {
+    font-family:fantasy;
+   
+
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  table {
+    width: 100%;
+    border: 2px solid black;
+    
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .editBtn,
+  .completeBtn,
+  .deleteBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  .editBtn:hover,
+  .completeBtn:hover,
+  .deleteBtn:hover {
+    color: #007bff;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #todoForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #taskTitle{
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+  }
+  #dueDate{
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+  }
+  
+  #prioritySelect{
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+  }
+  
+  #taskDescription{
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+  }
+  #submitbtn{
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+  }
